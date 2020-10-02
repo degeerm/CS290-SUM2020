@@ -1,0 +1,45 @@
+/*Table Styling*/
+tbody tr:nth-of-type(odd){
+  background-color:#faeda5;
+}
+
+tbody tr:nth-of-type(even){
+  background-color:#fac4a5;
+}
+
+table, th, td{
+  border: 1px solid grey;
+}
+
+/*Used for the first column in the table. For every first child
+th element in the table (which are then grouped under the
+pseudoclass "first-child"), the strength is removed (unbolded) and
+the font-style is made italic. Got from the Mozilla developer page
+(https://developer.mozilla.org/en-US/docs/Web/CSS/:first-child).*/
+th:first-child{
+  font-weight:normal;
+  font-style:italic;
+}
+
+/*Div Styling*/
+div.outer-content{
+  background-color:#ffdef7;
+  padding:10px;
+  margin-top:20px;
+  float:left;
+  width:75%;
+}
+
+div.inner-content{
+  background-color:#7de5ff;
+  width:75%;
+  margin:auto;
+  text-align:center;
+  
+}
+
+/*Form Styling*/
+div.inner-form{
+  border:1px solid grey;
+  padding:7px;
+}

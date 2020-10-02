@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>HW 2</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </head>
+  <body>
+  
+	<!-- TABLE PORTION (did extra credit)-->
+    <table>
+      <caption>Which animal would look cooler with a hat?</caption>
+      <thead>
+        <tr>
+          <th></th>
+          <th>Rat</th>
+          <th>Shark</th>
+          <th>Ferret</th>
+          <th>Snail</th>
+          <th>Hippo</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Rat</th>
+          <td>N/A</td>
+          <td>Major Win</td>
+          <td>Minor Win</td>
+          <td>Minor Lose</td>
+          <td>Major Win</td>
+        </tr>
+        <tr>
+          <th>Shark</th>
+          <td>Major Lose</td>
+          <td>N/A</td>
+          <td>Minor Lose</td>
+          <td>Major Lose</td>
+          <td>Minor Win</td>
+        </tr>
+        <tr>
+          <th>Ferret</th>
+          <td>Minor Lose</td>
+          <td>Major Win</td>
+          <td>N/A</td>
+          <td>Minor Lose</td>
+          <td>Minor Win</td>
+        </tr>
+        <tr>
+          <th>Snail</th>
+          <td>Minor Win</td>
+          <td>Major Win</td>
+          <td>Minor Win</td>
+          <td>N/A</td>
+          <td>Minor Win</td>
+        </tr>
+        <tr>
+          <th>Hippo</th>
+          <td>Major Lose</td>
+          <td>Minor Lose</td>
+          <td>Minor Lose</td>
+          <td>Major Lose</td>
+          <td>N/A</td>
+        </tr>
+	  </tbody>
+      <tfoot>
+		<tr>
+          <td colspan = "2">Snails win!</td>
+          <td colspan = "4">I guess they look the coolest with hats</td>
+		</tr>
+      </tfoot>
+    </table>
+    
+	<!--LIST PORTION-->
+    <p><b>Animals that I've found in my room</b></p>
+    <ul>
+      <li>Dog</li>
+      <li>Cat</li>
+      <li>Bat</li>
+    </ul>
+    
+	<!--DIV PORTION-->
+    <div class="outer-content">
+      <div class = "inner-content">
+        Content here!
+      </div>
+    </div>
+    
+    <br>
+    <br>
+    <br>
+    <br>
+    
+	<!--FORM PORITON (get)-->
+    <form action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php" method="get">
+      <fieldset>
+        <legend>Look, a form (GET)!</legend>
+        
+        <br>
+        <div class = "inner-form">
+          <label>Some Text:
+            <input type="text" name="text_input" size = "20">
+          </label>
+          
+          <br>
+          <br>
+          
+          <label>Some numbers:
+            <input type="number" name="numerical_input">
+          </label>
+          
+          <br>
+          <br>
+          
+          <label>Password:
+            <input type="password" name = "password_input" size = "20">
+          </label>
+        </div>
+        
+        <br>
+        
+        <div class = "inner-form">
+          <p>Select Between:
+		  <br>
+		  <br>
+		  
+            <input type="radio" id = "snickers" name = "candy" value="snickers">
+            <label for="snickers">Snickers</label>
+            
+            <br>
+			<br>
+            
+            <input type="radio" id = "skittles" name = "candy" value="skittles">
+            <label for="skittles">Skittles</label>
+            
+            <br>
+			<br>
+            
+            <input type="radio" id = "mentos" name = "candy" value="mentos">
+            <label for="mentos">Mentos</label>
+            
+            <br>
+			<br>
+			
+          </p>
+        </div>
+		
+        <br>
+		
+        <input type = "submit" value="Submit Answers">
+      </fieldset>
+    </form>
+    
+    <br>
+    <br>
+    
+	<!--FORM PORTION(post)-->
+    <form action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php" method="post">
+      <fieldset>
+        <legend>Look, a form (POST)!</legend>
+        
+        <br>
+        <div class = "inner-form">
+          <label>Some Text:
+            <input type="text" name="text_input" size = "20">
+          </label>
+          
+          <br>
+          <br>
+          
+          <label>Some numbers:
+            <input type="number" name="numerical_input">
+          </label>
+          
+          <br>
+          <br>
+          
+          <label>Password:
+            <input type="password" name = "password_input" size = "20">
+          </label>
+        </div>
+        
+        <br>
+        
+        <div class = "inner-form">
+          <p>Select Between:<br><br>
+            <input type="radio" id = "snickers" name = "candy" value= "snickers">
+            <label for="snickers">Snickers</label>
+            
+            <br>
+			<br>
+            
+            <input type="radio" id = "skittles" name = "candy" value="skittles">
+            <label for="skittles">Skittles</label>
+            
+            <br>
+			<br>
+            
+            <input type="radio" id = "mentos" name = "candy" value="mentos">
+            <label for="mentos">Mentos</label>
+            
+            <br>
+			<br>
+			
+          </p>
+        </div>
+		
+        <br>
+		
+        <input type = "submit" value="Submit Answers">
+      </fieldset>
+    </form>
+	
+  </body>
+</html>

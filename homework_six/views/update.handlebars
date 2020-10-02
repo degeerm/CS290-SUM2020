@@ -1,0 +1,34 @@
+<h2 style = "text-align:center">Please update your workout below:</h2>
+
+<form id = "updateForm" action="/update">
+	Exercise:	
+	<input type="text" name="name" id="name" value="{{oldWorkout.name}}">
+	
+	<br /> <br />
+	
+	Reps:	
+	<input type="number" name="reps" id="reps" value="{{oldWorkout.reps}}">
+	
+	<br /> <br />
+	
+	Weight:	
+	<input type="number" name="weight" id="weight" value="{{oldWorkout.weight}}">
+	
+	<br /> <br />
+	
+	Unit (leave unchecked for kilograms, checked for pounds):
+	{{#if oldWorkout.lbs}}
+		<input type="checkbox" name="measurement" id="measurement" checked>
+		<br /> <br />
+	{{else}}
+		<input type="checkbox" name="measurement" id="measurement">
+		<br /> <br />
+	{{/if}}
+	
+	Date:	
+	<input type="date" name="date" id="date" value="{{oldWorkout.date}}">
+	<br /><br />
+	<input type="hidden" name="id" value={{oldWorkout.id}}>
+	<input type="submit" name="updateItem" value="Update Item" id="updateItem">
+</form>
+<br>

@@ -1,0 +1,74 @@
+<!--PLEASE READ THE README.TXT BEFORE TESTING-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>title</title>
+  <link rel="stylesheet" href="weatherStyling.css" type="text/css">
+  </head>
+  <body>
+  <!--Realistically, I know I'd have to error-handle what happens if user enters all 3, or doesn't enter
+  correct info, or doesn't leave one of the boxes empty. For the sake of this assignment, I chose to assume
+  the user would enter correct info so I could focus on the AJAX skills.-->
+  
+  <!--Form Building-->
+  <div class = "warnDiv">
+    Please only fill out EITHER City Name OR Zip Code (leave other EMPTY) for best results.
+  </div>
+  
+  <form>
+    <div class = "formStyle">
+      <legend><h3>Get Weather Info</h3></legend>
+	  
+      <label for="city_name">City Name</label>
+      <input type = "text" name = "city_name" id = "city_name">
+	  
+      <br />
+      <br />
+	  
+      <label for="zip_code">Zip Code</label>
+      <input type="numbers" name="zip_code" id="zip_code">
+	  
+      <br />
+      <br />
+	  
+      <label for="country_code">Country Code (REQUIRED)</label>
+      <input type="text" name="country_code" id="country_code">
+	  
+      <br />
+      <br />
+	  
+      <input type="submit" id="infoSubmit">
+    </div>
+  </form>
+  
+  <!--Displaying Information-->
+  <div>
+  
+    <div class = "info_div">
+      <h2>Information</h2>
+    </div>
+    
+    <div class = "container_div">
+	
+      <div class = "name_div">
+        <span><h2>Name: </h2></span> <span id = "returnedName"></span>
+      </div>
+
+      <div class = "temp_div">
+        <span><h2>Temperature: </h2></span> <span id = "returnedTemp"></span>
+      </div>
+
+      <div class = "hum_div">
+        <span><h2>Humidity: </h2></span> <span id = "returnedHum"></span>
+      </div>
+	  
+    </div>
+	
+  </div>
+  
+  <script src="weatherScript.js"></script>
+	
+  </body>
+</html>

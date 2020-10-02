@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>title</title>
+  <link rel="stylesheet" href="postStyling.css" type="text/css">
+  </head>
+  
+  <body>
+	<!--Main Form-->
+    <div class = "formStyle">
+      <form>
+        <legend><h3>Hey Look, a Form!</h3></legend>
+        <div class = "innerForm">
+          <label for="field_one">Favorite Pokemon</label>
+          <br />
+          <input type = "text" name = "field_one" id = "field_one">
+          <br />
+          <br />
+          <label for="field_two">Favorite Animal Crossing Character</label>  
+          <br />
+          <input type="text" name="field_two" id="field_two">
+          <br />
+          <br />
+          <label for="field_three" >Opinion about Rats</label>
+          <br/>
+          <input type="text" name="field_three" id="field_three">
+          <br />
+          <br />
+          <input type="submit" id="buttonSubmit" value = "submit">
+        </div>
+      </form>
+    </div>
+  
+	<!--Results Divs-->
+    <div class = "container_div">
+      <div class = "left_div">
+        <span><h2>Result One:</h2></span> <span id = "result_one"></span>
+      </div>
+    
+      <div class = "mid_div">
+        <span><h2>Result Two:</h2></span> <span id = "result_two"></span>
+      </div>
+    
+      <div class = "right_div">
+        <span><h2>Result Three:</h2></span> <span id = "result_three"></span>
+      </div>
+    </div>
+  
+    <script src="postScript.js"></script>
+  </body>
+</html>

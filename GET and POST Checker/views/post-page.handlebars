@@ -1,0 +1,40 @@
+<h1> You have sent a POST request! </h1>
+<h2> The URL information you have sent is:</h2>
+<table>
+  <thead> 
+    <tr>
+      <th><b>Parameter</b></th>
+      <th><b>Value</b></th>
+  </thead>
+
+  <tbody>    
+
+    {{#each getData}}
+      <tr>
+    	<td>{{this.pName}}</td>
+        <td>{{this.pValue}}</td>
+      </tr>
+    {{/each}}
+  </tbody>
+</table>
+
+<h2> The body information you have sent is:</h2>
+<table>
+  <thead> 
+    <tr>
+      <th><b>Parameter</b></th>
+      <th><b>Value</b></th>
+  </thead>
+
+  <tbody>    
+
+    {{#each postData}}
+      <tr>
+    	<td>{{this.pName}}</td>
+        <td>{{this.pValue}}</td>
+      </tr>
+    {{/each}}
+  </tbody>
+</table>
+
+

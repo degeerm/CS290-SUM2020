@@ -1,0 +1,76 @@
+
+/*Form Styling*/
+div.formStyle{
+	border: 1px solid #e0e0e0;
+	background-color:#e0e0e0;
+	padding: 20px;
+	width: 200px;
+	margin: 0 auto;
+	border-radius: 20px;
+	margin-bottom: 50px;
+}
+
+input[type=text]{
+	border:1px solid #e3e3e3;
+	padding: 5px;	
+	width: 200px;
+	margin-left: -8px;
+}
+
+input[type=submit]{
+	border:1px solid #fff5d1;
+	background-color: #fff8de;
+	border-radius: 10px;
+	text-align:center;
+	width: 70px;
+	margin-left: 65px;
+}
+
+input[type=submit]:hover{
+	background-color:#faeec0;
+	border:1px solid #d9cea3;
+}
+
+/*Div Styling for Results*/
+div.container_div{
+	height: 150px;
+	width: 700x;
+	position:relative;
+	margin-left:22%;
+}
+
+div.left_div{
+	height: 200px;
+	width: 200px;
+	background-color: #faeec0;
+	border:	2px solid #faeec0;
+	border-radius:20px;
+	position:relative;
+	float:left;
+	margin-right:5%;
+	text-align:center;
+
+}
+
+div.mid_div{
+	height: 200px;
+	width: 200px;
+	background-color: #faeec0;
+	border:	2px solid #faeec0;
+	border-radius:20px;
+	position:relative;
+	float:left;
+	margin-right: 5%;
+	text-align:center;
+}
+
+div.right_div{
+	height: 200px;
+	width: 200px;
+	background-color: #faeec0;
+	border:	2px solid #faeec0;
+	border-radius:20px;
+	position:relative;
+	float:left;
+	text-align:center;
+}

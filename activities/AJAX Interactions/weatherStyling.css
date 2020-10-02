@@ -1,0 +1,93 @@
+/*Form Styling*/
+div.formStyle{
+	border: 1px solid #e0e0e0;
+	background-color:#e0e0e0;
+	padding: 20px;
+	width: 200px;
+	margin: 0 auto;
+	border-radius: 20px;
+	margin-bottom: 50px;
+}
+
+input[type=text], input[type=numbers]{
+	border:1px solid #e3e3e3;
+	padding: 5px;	
+	width: 200px;
+	margin-left: -8px;
+}
+
+input[type=submit]{
+	border:1px solid #fff5d1;
+	background-color: #fff8de;
+	border-radius: 10px;
+	text-align:center;
+	width: 100px;
+	margin-left: 45px;
+} 
+
+div.warnDiv{
+	border: 3px solid #e0e0e0;
+	background-color: #e0e0e0;
+	margin: 0 auto;
+	padding: 10px;
+	width: 200px;
+	border-radius: 20px;
+	margin-bottom: 50px;
+	text-align:center;
+	font-weight:bold;
+}
+
+/*Results Styling*/
+div.info_div{
+	border: 3px solid #e0e0e0;
+	background-color: #e0e0e0;
+	margin: 0 auto;
+	width: 200px;
+	border-radius: 20px;
+	margin-bottom: 20px;
+	text-align:center;
+	font-weight:bold;
+}
+
+div.container_div{
+	height: 150px;
+	width: 700x;
+	position:relative;
+	margin-left:22%;
+}
+
+div.name_div{
+	height: 200px;
+	width: 200px;
+	background-color: #faeec0;
+	border:	2px solid #faeec0;
+	border-radius:20px;
+	position:relative;
+	float:left;
+	margin-right:5%;
+	text-align:center;
+
+}
+
+div.temp_div{
+	height: 200px;
+	width: 200px;
+	background-color: #faeec0;
+	border:	2px solid #faeec0;
+	border-radius:20px;
+	position:relative;
+	float:left;
+	margin-right: 5%;
+	text-align:center;
+}
+
+div.hum_div{
+	height: 200px;
+	width: 200px;
+	background-color: #faeec0;
+	border:	2px solid #faeec0;
+	border-radius:20px;
+	position:relative;
+	float:left;
+	text-align:center;
+}
