@@ -1,0 +1,56 @@
+.carousel {
+  width:90%;
+  height:90%;
+  margin: 0 auto;
+}
+
+.carousel-inner > .item{
+  height: 500px;
+}
+
+div.caro-outer{
+  width: 40%;
+  height:100%;
+  float:left;
+  border: 2px solid #dedede;
+  background-color:#faf2cf;
+  border-radius: 8px;
+  margin-right:10px;
+}
+div.caro-text-container{
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 10px;
+  background-color:#e3e3e3;
+  border-radius:20px;
+  border: 2px dotted #c7c7c7;
+
+}
+
+div.more-info{
+  clear: both;
+  width: 75%;
+  margin: 0 auto;
+  margin-top:2%;
+  margin-bottom:3%;
+  background-color: #f2f2f2;
+  border-radius:5px;
+  border:2px solid #dedede;
+  padding: 10px;
+}
+
+#homeLink{
+  background-color:#a3a3a3;
+  color:#fafafa;
+}
+
+.carousel-control-prev, 
+.carousel-control-next{
+  margin-top: 25%;
+  height: 30%;
+  background-color: #bdbdbd;
+  border-radius:20px;
+}
+
+
