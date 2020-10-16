@@ -1,6 +1,4 @@
-/*PLEASE READ THE README.TXT BEFORE TESTING*/
-
-var apiKey = "b7519eb17d42009780b72071addbdcb2";
+var apiKey; /*insert api key for open weather map*/
 
 document.addEventListener("DOMContentLoaded", buttonBind);
 
